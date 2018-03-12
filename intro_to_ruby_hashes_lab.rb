@@ -1,3 +1,5 @@
+require 'pry'
+
 def new_hash
  hash = Hash.new
 end
@@ -74,3 +76,5 @@ def monopoly_with_fourth_tier
 		}
 	}
 end
+
+building.pry
